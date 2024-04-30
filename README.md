@@ -4,6 +4,7 @@
   mv nv-build-scripts workdir && cd workdir
   
   ./source_sync.sh -k rel-36_eng_2024-04-04
+
   \# another possible tag is l4t-l4t-r36.3_eng_2024-04-24
   
   pushd kernel
