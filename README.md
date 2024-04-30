@@ -3,11 +3,11 @@
   
   mv nv-build-scripts workdir && cd workdir
   
-  ./sync_sources.sh -t ....
+  ./sync_source.sh -k rel-36_eng_2024-04-04
   
   pushd kernel
   
-  git clone --depth 1 ....
+  git clone --depth 1 git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git -t v6.8.7 
   
   mv linux kernel-687
   
