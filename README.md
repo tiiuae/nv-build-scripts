@@ -28,6 +28,8 @@
   scripts/config --file .config --enable FB_SIMPLE
   
   scripts/config --file .config --enable RTW88
+
+  scripts/config --file .config --enable RTW88_8822CE
   
   cp .config arch/arm64/configs/defconfig 
   
