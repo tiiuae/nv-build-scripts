@@ -15,7 +15,7 @@
   
   pushd kernel-687
   
-  make defconfig
+  make ARCH=arm64 defconfig
   
   scripts/config --file .config --enable ARM64_PMEM
   
